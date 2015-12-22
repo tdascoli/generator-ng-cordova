@@ -18,9 +18,6 @@
     "email": "lucas.paulger@gmail.com",
     "url": "https://github.com/lpaulger"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  },
   "scripts": {
     "test": "mocha --timeout 15000"
   },
@@ -31,24 +28,20 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "cordova": "~3.4.0",
-    "plugman": ">=0.10.0",
-    "yeoman-generator": "~0.16.0",
-    "chalk": "~0.4.0"
+    "cordova": "latest",
+    "plugman": "latest",
+    "yeoman-generator": "latest",
+    "chalk": "latest"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-conventional-changelog": "~1.1.0",
-    "grunt-release": "~0.6.0",
-    "load-grunt-tasks": "~0.3.0",
-    "marked": "~0.2.8",
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-conventional-changelog": "latest",
+    "grunt-release": "latest",
+    "load-grunt-tasks": "latest",
+    "marked": "latest",
     "mocha": "*",
-    "semver": "~2.2.1",
-    "underscore.string": "~2.3.1"
-  },
-  "peerDependencies": {
-    "yo": ">=1.0.0",
-    "generator-karma": ">=0.6.0"
+    "semver": "latest",
+    "underscore.string": "latest"
   }
 }
